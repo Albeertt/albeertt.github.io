@@ -1,0 +1,21 @@
+
+
+<rss version="2.0">
+
+<channel>
+<title>Ejemplo de RSS</title>
+<link>https://practicasldmg.000webhostapp.com/</link>
+<description>
+El tiempo
+</description>
+<language>es</language>
+
+<item>
+<title>El tiempo</title>
+<link>https://www.eltiempo.es/?gclid=Cj0KCQiA8_PfBRC3ARIsAOzJ2uptfsVBnxPSUSDBzMQfCs5gAGQpY7kehhC2uPmieraQnYaNCzf4hksaAo_gEALw_wcB</link>
+
+
+
+</item>
+</channel>
+</rss>
