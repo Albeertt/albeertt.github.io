@@ -1,0 +1,194 @@
+		<!Hecho por Oscar y Albert-->
+<!DOCTYPE html>
+<html>
+<head>
+		<!estilo de tabla-->
+<style>
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	th, td {
+		text-align: center;
+	}
+</style>
+		<!idioma-->
+<html lang="en-us">
+
+		<!tildes-->
+<meta charset="utf-8">
+		<!Hecho por Oscar y Albert-->
+<meta name="Oscar y Albert" coment="Oscar y Albert">
+
+
+<title>Oscar y Albert</title>
+	<h1>lenguaje de marcas</h1>
+</head>
+<body>
+<p>
+<a href="https://iesavellaneda.es/" target="_blank" >IES Alonso de avellanda</a>
+<!añadir una foto-->
+<br>
+<br>
+<a href="http://www.arcerobotica.org/web/" target="_blank">
+<img   src="Imagenes/5-09.JPG" width="200" height="200">
+</a>
+<br>
+
+
+
+<! boton con elnace-->
+<form action="http://www.arcerobotica.org/web/" target="_blank">
+    <input type="submit" value="esta foto pertenece a arcerobotica"/>
+    <br>
+    <br>
+
+<h2>INDICE</h2>
+<li> <a href="#asignaturas">LIsta asignaturas ordenadas y desordenadas</a>
+<br><br>
+	<a href="#Horario">Horario</a>
+<br><br>
+		<a href="#Contacto">Contacto</a>
+<br><br>
+			<a href="#Mapa">Mapa</a>
+
+</li>
+
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</form>
+<!lista desordenada-->
+<h2 id="asignaturas">Listado de asignaturas</h2>
+
+<ul>
+<li>Base de Datos</li>	
+<li>Sistemas</li>
+<li>Hardware</li>
+<li>Lenguaje de Marcas</li>
+<ul type ="I">
+				<li>HTML</li>
+			<li>CSS</li>
+		<li>XML</li>
+
+</ul>
+<li>Redes</li>
+<li>FOL</li>
+</ul>
+
+<!lista ordenada-->
+<h2>Listado de asignaturas</h2>
+<ol>
+<li>Base de Datos</li>	
+<li>Sistemas</li>
+<li>Hardware</li>
+<li>Lenguaje de Marcas</li>
+	<!sub apartados en la lista-->
+	<ol type ="1">
+				<li>HTML</li>
+			<li>CSS</li>
+		<li>XML</li>
+</ol>
+<li>Redes</li>
+<li>FOL</li>
+</ol>	
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!estilo de letra -->
+
+
+
+<p style="color: red">
+hola esto es una prueba de estilo de esctirura<br>
+<br>
+clasificaión 
+</p>
+<p>
+en esta pagina utilizaremos <sub>subindices</sub> y <sup>superindices</sup>
+</p>
+<p><q>En un lugar de la mancha ...</q></p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!tabla horario-->
+<h2 id="Horario">Horario</h2>
+<table style="width: 100%">
+<caption>1º ASIR</caption>
+	<tr>
+		<th>Hora/Día</th>
+		<th>Lunes</th>
+		<th>Martes</th>
+		<th>Miercoles</th>
+		<th>Jueves</th>
+		<th>Viernes</th>
+	<tr/>
+	<tr>
+		<td>8:15</td>
+		<td>LM</td>
+		<td>PAR</td>
+		<td>ISSOO</td>
+		<td>FOL</td>
+		<td>FOL</td>
+	</tr>
+	<tr>
+		<td>9:10</td>
+		<td>LM</td>
+		<td>PAR</td>
+		<td>ISSOO</td>
+		<td>PAR</td>
+		<td>ISSOO</td>
+	</tr>
+	<tr>
+		<td>10:05</td>
+		<td>FOL</td>
+		<td>ISSOO</td>
+		<td>LM</td>
+		<td>PAR</td>
+		<td>ISSOO</td>
+	</tr>
+	<tr>
+		<td>11:00</td>
+		<!-unir celdas recreo colspan columna-->
+		<td colspan="5">RECREO</td>
+	</tr>
+	<tr>
+		<td>11:25</td>
+		<td>FH</td>
+		<td>ISSOO</td>
+		<td rowspan="3">GBD</td>
+		<td>GBD</td>
+		<td>ISSOO</td>
+	</tr>
+	<tr>
+		<td>12:20</td>
+		<td>FH</td>
+		<td>ISSOO</td>
+		<td>GBD</td>
+		<td>PAR</td>
+	</tr>
+	<tr>
+		<td >13:15</td>
+		<td>FH</td>
+		<td>LM</td>
+		<td>GBD</td>
+		<td>PAR</td>
+	</tr>
+
+</table>
+<br><br>
+<h2 id="Contacto">Contacto</h2>
+Para solicitar mas información o consultarnos mande un e-mail a <a href="mailto:pepeperez@gmail.com">Pinche aquí</a>
+<br>
+<br>
+
+<h3 id="Mapa">Mapa</h3>
+
+<img src="Imagenes/encuentra-butacas-cine.gif" usemap="#Butacas">
+<!mapeo de coordenadas en una foto-->
+
+<map name="Butacas">
+<area shape="rect" coords="8,60,51,315"  target="_blank" href="http://yelmocines.es/">
+
+<area shape="rect" coords="62,294,247,63"  target="_blank" href="https://www.cinesladehesa.com/">
+
+<area shape="rect" coords="252,310,280,65"  target="_blank" href="https://www.cinesa.es/Cines/parque-corredor">
+
+</body>
+</html>
