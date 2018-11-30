@@ -1,14 +1,16 @@
 
-<feed xmlns="https://validator.w3.org/nu/#textarea" xml:lang="es-es">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
 <title type="text">Atom</title>
 <updated>2011-01-14T19:17:46Z</updated>
-<id>http://www.infoalisal.com/feed/atom</id>
+<link rel="self" type="application/atom+xml" href="https://github.com/Albeertt/albeertt.github.io"/>
+<link rel="alternate" type="text/html" href="https://albeertt.github.io/index.html"/>
+<id>https://github.com/Albeertt/albeertt.github.io</id>
 <entry>
 <title>Noticias</title>
-<link rel="alternate" type="text/html"  target="_blank"  href="ttps://www.eltiempo.es/?gclid=Cj0KCQiA8_PfBRC3ARIsAOzJ2uptfsVBnxPSUSDBzMQfCs5gAGQpY7kehhC2uPmieraQnYaNCzf4hksaAo_gEALw_wcB"/>
+<link rel="alternate" type="text/html"  target="_blank"  href="https://www.eltiempo.es/?gclid=Cj0KCQiA8_PfBRC3ARIsAOzJ2uptfsVBnxPSUSDBzMQfCs5gAGQpY7kehhC2uPmieraQnYaNCzf4hksaAo_gEALw_wcB"/>
 
 <updated>2011-01-14T19:19:46Z</updated>
-<id>ttps://www.eltiempo.es/?gclid=Cj0KCQiA8_PfBRC3ARIsAOzJ2uptfsVBnxPSUSDBzMQfCs5gAGQpY7kehhC2uPmieraQnYaNCzf4hksaAo_gEALw_wcB/
+<id>https://www.eltiempo.es/?gclid=Cj0KCQiA8_PfBRC3ARIsAOzJ2uptfsVBnxPSUSDBzMQfCs5gAGQpY7kehhC2uPmieraQnYaNCzf4hksaAo_gEALw_wcB/
 
 <link rel="alternate" type="text/html"  target="_blank"  href="Mi noticia.html">Mi noticia</link>
 
